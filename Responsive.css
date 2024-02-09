@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&family=Protest+Revolution&display=swap');
+
+img {
+    height: revert-layer;
+    width: 100%;
+    filter: blur(4px);
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 20px;
+    font: 20px;
+    width: 850px;
+}
+
+.about-me {
+    font-size: 36px;
+    font-family: 'Anton', sans-serif;
+    padding: 64px;
+
+}
+
+.para {
+    margin: 14px;
+    padding-left: 3rem;
+    font-size: 20px;
+}
+
+.container {
+    font-size: 36px;
+    font-family: 'Anton', sans-serif;
+    padding: 40px;
+}
+
+.card img {
+    filter: blur();
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: -50PX -1px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.marq {
+    padding-top: 23px;
+    padding-bottom: 17px;
+    background: #464c4e;
+    speed
+}
+
+.geek1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+}
+.info{
+    background: white;
+    padding: 2rem;
+}
+.big{
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    padding: 6px 70px;
+    font-size: 56px;
+}
+.msg{
+    background: white;
+    padding: 50px;
+    width: 756px;
+    margin: 20px;
+
+}
+footer {
+    text-align: center;
+    color: white;
+}
